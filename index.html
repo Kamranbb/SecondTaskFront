@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Bakhshalievv.com</h2>
+    <form action="register" id="reg">
+    <div class="regname">
+        <label for="Ad">Ad</label>
+        <input name="ad" minlength="5" type="text" id="Ad" placeholder="Ad daxil et "> <br><br>
+    </div>
+    <div class="regsurname">
+        <label for="Soyad">Soyad</label>
+        <input minlength="5"  name="soyad" type="text" id="Soyad" placeholder="Soyad daxil edin"><br><br>
+    </div>
+    <div class="regpass">
+        <label for="password">Şifrə</label>
+         <input required name="pass" type="password" id="password" placeholder="Şifrə daxil edin"><br><br>
+    </div>
+    <div class="regemail">
+        <label for="email">Email daxil et</label>
+        <input type="email" name="email" id="email" placeholder="Email daxil edin">
+    </div>
+    <div class="regbirth">
+        <label for="adgunu">Doğum gününü daxil et</label>
+        <input type="date" name="adgunu" id="adgunu" >
+    </div>
+    <div class="reggender">
+        <label for="gender">Kişi</label>
+        <input type="radio" name="gender" id="gender" style="margin-top: 30px;">
+        <label for="qadin" style="margin-left: 40px;">Qadın</label>
+        <input type="radio" name="gender" id="qadin" style="margin-top: 30px;" >
+        <label for="diger" style="margin-left: 40px;">Digər</label>
+        <input type="radio" name="gender" id="diger" style="margin-top: 30px;" >
+        
+    </div>
+    <div>
+        <input type="submit" style="display: inline-block; border-radius: 25px; width: 80px; height: 35px; margin-top: 25px;margin-left: 80px;">
+    </div>
+    <p><a href="login.html">Hesabınız var ?</a></p>
+    </form>
+   
+</body>
+</html>
